@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>{% block title %}My Blog{% endblock %}</title>
+    {% block css_add %}{% endblock %}
+</head>
+<body>
+
+    {% block content %}{% endblock %}
+
+</body>
+</html>

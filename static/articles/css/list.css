@@ -1,0 +1,31 @@
+
+h1 {
+    color: black;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    background: #a8d7e1; /* Цвет блока */
+}
+
+p {
+    margin-top: 1px;
+    font-size: 12px;
+    font-style:italic;
+}
+
+.art_list{
+    text-decoration: none;
+    font-family: "Comic Sans MS";
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6;
+    text-decoration:none;
+    cursor:pointer;
+}

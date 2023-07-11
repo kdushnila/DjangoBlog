@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block css_add %}
+    <link rel="stylesheet" href="{% static 'articles/css/list.css' %}">
+{% endblock %}
+
+{% block title %}Latest articles:{% endblock %}
+
+{% block content %}
+
+<h1 align="center">Last articles:</h1>
+
+    {% if latest_articles_list %}
+
+        {% for a in latest_articles_list %}
+<h2 align="center"><a class="art_list" href="{% url 'articles:detail' a.id %}">{{a.article_title}} <p>{{a.pub_date}}</p></a></h2>
+        {% endfor %}
+
+    {% else %}
+        Articles not found :(
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,23 @@
+
+body {
+    background: #a8d7e1; /* Цвет блока */
+}
+
+p {
+    font-family: "Courier", "Comic Sans MS";
+    color: black;
+}
+
+h2 {
+    font-family: "Courier";
+}
+
+.comment_form {
+    size: 3;
+    background-color: #a8d7e9;
+}
+
+.comment_button {
+    color: black;
+    background-color: #a5d1cf;
+}
