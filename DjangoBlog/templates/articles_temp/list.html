@@ -10,12 +10,12 @@
 
 {% block content %}
 
-<h1 align="center">Last articles:</h1>
+<h1 align="left">Last articles:</h1>
 
     {% if latest_articles_list %}
 
         {% for a in latest_articles_list %}
-<h2 align="center"><a class="art_list" href="{% url 'articles:detail' a.id %}">{{a.article_title}} <p>{{a.pub_date}}</p></a></h2>
+<h2 align="left"><a class="art_list" href="{% url 'articles:detail' a.id %}">&#8226{{a.article_title}} <p>{{a.pub_date}}</p></a></h2>
         {% endfor %}
 
     {% else %}

@@ -5,7 +5,12 @@ h1 {
 }
 
 body {
-    background: #a8d7e1; /* Цвет блока */
+    /*background: #a8d7e1;*/
+    background: #ed836e;
+    background: -webkit-radial-gradient(circle farthest-side at center center, #30b6bf 0%, #a8d7e1 100%);
+    background: -moz-radial-gradient(circle farthest-side at center center, #30b6bf 0%, #a8d7e1 100%);
+    background: radial-gradient(circle farthest-side at center center, #30b6bf 0%, #a8d7e1 100%);
+}
 }
 
 p {
