@@ -2,6 +2,11 @@
 h1 {
     color: black;
     font-family: "Comic Sans MS";
+    margin-left: 5px;
+}
+
+h2 {
+    margin-left: 20px;
 }
 
 body {
@@ -11,12 +16,12 @@ body {
     background: -moz-radial-gradient(circle farthest-side at center center, #30b6bf 0%, #a8d7e1 100%);
     background: radial-gradient(circle farthest-side at center center, #30b6bf 0%, #a8d7e1 100%);
 }
-}
 
 p {
     margin-top: 1px;
     font-size: 12px;
     font-style:italic;
+    margin-left: 15px;
 }
 
 .art_list{

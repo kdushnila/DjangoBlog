@@ -15,7 +15,7 @@
     {% if latest_articles_list %}
 
         {% for a in latest_articles_list %}
-<h2 align="left"><a class="art_list" href="{% url 'articles:detail' a.id %}">&#8226{{a.article_title}} <p>{{a.pub_date}}</p></a></h2>
+<h2 align="left"><a>&#8226  </a><a class="art_list" href="{% url 'articles:detail' a.id %}">{{a.article_title}} <p>{{a.pub_date}}</p></a></h2>
         {% endfor %}
 
     {% else %}
